@@ -1,0 +1,1 @@
+console.log(require('./wdio.conf'));

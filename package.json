@@ -1,0 +1,36 @@
+{
+  "name": "clasifyautomation",
+  "version": "1.0.0",
+  "description": "Automation framework for ClasifyApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:appium": "npx appium &",
+    "start:wdio": "npx wdio wdio.conf.js",
+    "generate:wdio:config": "npx wdio config -y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-C-L-G/ClasifyAutomation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-C-L-G/ClasifyAutomation/issues"
+  },
+  "homepage": "https://github.com/J-C-L-G/ClasifyAutomation#readme",
+  "dependencies": {
+    "@wdio/appium-service": "^6.10.0",
+    "@wdio/cli": "^6.10.0",
+    "appium": "^1.19.0",
+    "wd": "^1.13.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.10.2",
+    "@wdio/mocha-framework": "^6.8.0",
+    "@wdio/spec-reporter": "^6.8.1",
+    "@wdio/sync": "^6.10.0",
+    "chromedriver": "^87.0.0",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
